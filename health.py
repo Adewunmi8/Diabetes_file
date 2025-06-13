@@ -5,6 +5,14 @@ import numpy as np
 import seaborn as sns
 
 st.title("DIABETES_ANALYSIS")
+
 #import my csv file
+st.markdown("# FIRST FIVE")
 df = pd.read_csv("diabetes.csv")
-st.write(df.head())
+st.write(df.head)()
+
+st.markdown("# LAST FIVE")
+df = pd.read_csv("diabetes.csv")
+st.write(df.taul)()
+
+
