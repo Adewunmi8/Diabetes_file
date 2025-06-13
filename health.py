@@ -13,6 +13,6 @@ st.write(df.head())
 
 st.markdown("# LAST FIVE")
 df = pd.read_csv("diabetes.csv")
-st.write(df.taul())
+st.write(df.tail())
 
 
