@@ -32,4 +32,4 @@ st.write(my)
 st.markdown("## UNIVARIATE ANALYSIS")
 
 st.markdown("### Blood Pressure")
-st.write(df['BloodPressure'].describe())
+st.write(df["BloodPressure"].describe())
