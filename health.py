@@ -6,6 +6,7 @@ import seaborn as sns
 
 st.title("# *DIABETES_ANALYSIS*")
 st.markdown("## OVERVIEW")
+
 #import my csv file
 st.markdown("### FIRST FIVE")
 df = pd.read_csv("diabetes.csv")
@@ -26,3 +27,9 @@ st.write(my)
 st.markdown("### DATA SHAPE")
 my = df.shape
 st.write(my)
+
+#UNIVARIATE ANALYSIS
+st.markdown("## UNIVARIATE ANALYSIS")
+
+st.markdown("### Blood Pressure")
+st.write(df['BloodPressure'].describe())
